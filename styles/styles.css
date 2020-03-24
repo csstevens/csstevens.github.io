@@ -32,3 +32,12 @@ a:hover {
 a:active {
   color: black;
 }
+
+.copywrite {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: grey;
+  font-size: 12px;
+}
