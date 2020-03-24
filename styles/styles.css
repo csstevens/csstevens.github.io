@@ -1,0 +1,30 @@
+
+h1 {
+  display: block;
+  font-family: avenir;
+  font-size: 70px;
+  text-align: center;
+  margin: 0px 0px;
+  padding: 25px 25px;
+  color: LightSlateGrey
+}
+
+h2 {
+  font-family:san francisco;
+  text-align: center;
+  color: darkgrey;
+  font-size:14px;
+}
+
+a {
+  color: darkgrey;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+a:active {
+  color: black;
+}
