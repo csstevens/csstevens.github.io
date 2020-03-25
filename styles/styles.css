@@ -18,18 +18,24 @@ h2 {
   text-align: center;
   color: darkgrey;
   font-size:14px;
+
 }
 
-a {
-  color: darkgrey;
+.contacts a {
+  color: white;
   text-decoration: none;
+  background: darkgrey;
+  padding: 8px 8px;
+  border-radius: 6px;
+
 }
 
-a:hover {
-  text-decoration: underline
+.contacts a:hover {
+  text-decoration: none;
+  background: rgba(169, 169, 169, 80%);
 }
 
-a:active {
+.contacts a:active {
   color: black;
 }
 
