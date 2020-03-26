@@ -7,6 +7,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: Avenir, Helvetica, sans-serif;
 }
 
 .content-wrap {
@@ -16,7 +17,6 @@ body {
 }
 
 h1 {
-  font-family: avenir;
   font-size: 60px;
   color: #7FDBFF;
   padding: 0px;
@@ -24,19 +24,16 @@ h1 {
 }
 
 h2 {
-  font-family: avenir;
   font-size: 24px;
   color: #e9388b;
 }
 
 p { /*LIGHT TEXT OVER DARK COLORS */
-  font-family: avenir;
   color: rgba(255,255,255, 80%);
   font-size: 16px;
 }
 
 p2 { /*DARK TEXT OVER LIGHT COLORS */
-  font-family: avenir;
   color: rgba(0,0,0, 60%);
   font-size:16px;
 }
