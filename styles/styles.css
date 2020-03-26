@@ -29,13 +29,13 @@ h2 {
   color: #e9388b;
 }
 
-h3 { /*LIGHT TEXT OVER DARK COLORS */
+p { /*LIGHT TEXT OVER DARK COLORS */
   font-family: avenir;
   color: rgba(255,255,255, 80%);
-  font-size:16px;
+  font-size: 16px;
 }
 
-h4 { /*DARK TEXT OVER LIGHT COLORS */
+p2 { /*DARK TEXT OVER LIGHT COLORS */
   font-family: avenir;
   color: rgba(0,0,0, 60%);
   font-size:16px;
@@ -77,8 +77,9 @@ h4 { /*DARK TEXT OVER LIGHT COLORS */
   text-decoration: none;
   background: rgba(58,60,64, 80%);
   padding: 8px 8px;
+  margin: 10px 0px;
   border-radius: 6px;
-  margin: 12px;
+  display: inline-block;
 
 }
 
@@ -93,9 +94,9 @@ h4 { /*DARK TEXT OVER LIGHT COLORS */
 
 .contacts .copywrite {
   text-align: center;
-  color: white;
+  color: lightgrey;
   font-size: 12px;
-  margin: 100px; 0px; 0px; 0px;
+  margin: 100px 0px 0px 0px;
 }
 
 /* ----------------- */
