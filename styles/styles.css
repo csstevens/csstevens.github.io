@@ -26,7 +26,7 @@ h1 {
 h2 {
   font-family: avenir;
   font-size: 24px;
-  color: rgba(255,65,54,90%)
+  color: #e9388b;
 }
 
 h3 { /*LIGHT TEXT OVER DARK COLORS */
@@ -66,11 +66,14 @@ h4 { /*DARK TEXT OVER LIGHT COLORS */
 /* CONTACT INFO  */
 
 .contacts {
-  background: slategrey;
+  background: #4a1a31;
 }
 
 .contacts .btn {
   color: white;
+  font-family: avenir;
+  color: rgba(255,255,255, 80%);
+  font-size:16px;
   text-decoration: none;
   background: rgba(58,60,64, 80%);
   padding: 8px 8px;
@@ -89,11 +92,10 @@ h4 { /*DARK TEXT OVER LIGHT COLORS */
 }
 
 .contacts .copywrite {
-  bottom: 0;
-  width: 100%;
   text-align: center;
-  color: grey;
+  color: white;
   font-size: 12px;
+  margin: 100px; 0px; 0px; 0px;
 }
 
 /* ----------------- */
