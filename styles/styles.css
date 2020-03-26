@@ -4,6 +4,10 @@
 
 /* UNUSED COLORS */
 
+body {
+  margin: 0;
+  padding: 0;
+}
 
 .content-wrap {
   width: 900px;
