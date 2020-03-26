@@ -1,49 +1,95 @@
 
-body{
-  background-color: White;
+
+/* GLOBAL STYLES */
+
+/* UNUSED COLORS */
+
+
+.content-wrap {
+  width: 900px;
+  margin: 0 auto;
+  padding: 60px 0;
 }
 
 h1 {
-  display: block;
   font-family: avenir;
-  font-size: 70px;
-  text-align: center;
-  margin: 0px 0px;
-  padding: 25px 25px;
-  color: LightSlateGrey
+  font-size: 60px;
+  color: #7FDBFF;
+  padding: 0px;
+  margin: 0px;
 }
 
 h2 {
-  font-family:san francisco;
-  text-align: center;
-  color: darkgrey;
-  font-size:14px;
-
+  font-family: avenir;
+  font-size: 24px;
+  color: rgba(255,65,54,90%)
 }
 
-.contacts a {
+h3 { /*LIGHT TEXT OVER DARK COLORS */
+  font-family: avenir;
+  color: rgba(255,255,255, 80%);
+  font-size:16px;
+}
+
+h4 { /*DARK TEXT OVER LIGHT COLORS */
+  font-family: avenir;
+  color: rgba(0,0,0, 60%);
+  font-size:16px;
+}
+
+/* HEADER */
+
+.header {
+  background: #000022;
+}
+
+/* ABOUT */
+
+.about {
+  background: #85144b;
+}
+
+/* REEL */
+
+.reel {
+  background: #2B4162;
+}
+
+.workhistory {
+  background: white;
+}
+
+/* CONTACT INFO  */
+
+.contacts {
+  background: slategrey;
+}
+
+.contacts .btn {
   color: white;
   text-decoration: none;
-  background: darkgrey;
+  background: rgba(58,60,64, 80%);
   padding: 8px 8px;
   border-radius: 6px;
+  margin: 12px;
 
 }
 
-.contacts a:hover {
+.contacts .btn:hover {
   text-decoration: none;
-  background: rgba(169, 169, 169, 80%);
+  background: #0094C6;
 }
 
-.contacts a:active {
-  color: black;
+.contacts .btn:active {
+  background: black;
 }
 
-.copywrite {
-  position: fixed;
+.contacts .copywrite {
   bottom: 0;
   width: 100%;
   text-align: center;
   color: grey;
   font-size: 12px;
 }
+
+/* ----------------- */
