@@ -24,27 +24,24 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 4.0em;
   color: #7FDBFF;
   padding: 0px;
   margin: 0px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.8em;
   color: #e9388b;
 }
 
 p { /*LIGHT TEXT OVER DARK COLORS */
   color: rgba(255,255,255, 80%);
-
-  font-size: 16px;;
 }
 
 p2 { /*DARK TEXT OVER LIGHT COLORS */
   color: rgba(0,0,0, 60%);
   font-family: 'Roboto'
-  font-size:16px;
 }
 
 /* HEADER */
