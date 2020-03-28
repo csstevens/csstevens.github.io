@@ -10,12 +10,14 @@ html {
   box-sizing: inherit;
 }
 
+@-ms-viewport{
+  width: device-width;
+}
 
 body {
   margin: 0;
   padding: 0;
   font-family: Avenir, sans-serif;
-  text-align: center;
 }
 
 .content-wrap {
@@ -55,7 +57,7 @@ p2 { /*DARK TEXT OVER LIGHT COLORS */
     list-style-type: none;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     color: rgba(255,255,255, 80%);
 }
 
