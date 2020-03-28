@@ -10,9 +10,7 @@ html {
   box-sizing: inherit;
 }
 
-@-ms-viewport{
-  width: device-width;
-}
+
 
 body {
   margin: 0;
