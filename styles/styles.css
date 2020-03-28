@@ -15,6 +15,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Avenir, sans-serif;
+  text-align: center;
 }
 
 .content-wrap {
@@ -49,6 +50,16 @@ p2 { /*DARK TEXT OVER LIGHT COLORS */
 .header {
   background: #000022;
 }
+
+.specialties-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: rgba(255,255,255, 80%);
+}
+
+
 
 /* ABOUT */
 
