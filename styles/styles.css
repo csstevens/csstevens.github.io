@@ -28,7 +28,7 @@ body {
 
 
 h1 {
-  font-size: 2.8em;
+  font-size: 3.5em;
   color: #7FDBFF;
   margin: 0px;
 }
@@ -144,4 +144,9 @@ p2 { /*DARK TEXT OVER LIGHT COLORS */
       align-items; start;
   }
 
+}
+
+@media screen and (max-width:749px){
+  h1 {
+    font-size: 2.5em;
 }
