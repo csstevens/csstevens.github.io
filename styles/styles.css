@@ -66,13 +66,7 @@ p2 { /*DARK TEXT OVER LIGHT COLORS */
   text-align: center;
 }
 
-.specialties-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    text-align: center;
-    padding: 0px;
-    color: rgba(255,255,255, 80%);
-}
+
 
 
 
@@ -143,10 +137,21 @@ p2 { /*DARK TEXT OVER LIGHT COLORS */
       padding: 0px;
       align-items; start;
   }
+  .specialties-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      text-align: center;
+      padding: 0px;
+      color: rgba(255,255,255, 80%);
+  }
 
 }
 
 @media screen and (max-width:749px){
   h1 {
     font-size: 2.5em;
+    }
+  .specialties-list {
+      color: rgba(255,255,255, 80%);
+  }
 }
