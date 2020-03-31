@@ -31,13 +31,24 @@ body {
 h1 {
   font-size: 3.0em;
   color: #7FDBFF;
-  padding: 0px;
   margin: 0px;
 }
 
 h2 {
   font-size: 1.8em;
   color: #e9388b;
+}
+
+h3 {
+  font-size: 1.2em;
+    margin: 3px 2px;
+}
+
+h4 {
+  font-size: 1em;
+  margin: 3px 2px;
+  color: rgba(0,0,0, 60%);
+  font-weight: normal;
 }
 
 p { /*LIGHT TEXT OVER DARK COLORS */
@@ -47,6 +58,7 @@ p { /*LIGHT TEXT OVER DARK COLORS */
 p2 { /*DARK TEXT OVER LIGHT COLORS */
   color: rgba(0,0,0, 60%);
 }
+
 
 /* HEADER */
 
@@ -81,11 +93,13 @@ p2 { /*DARK TEXT OVER LIGHT COLORS */
   background: white;
 }
 
-}
-.job-item {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  column-gap: 20px;
+
+.work-experience {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
+    align-items; start;
 }
 
 /* CONTACT INFO  */
