@@ -94,27 +94,19 @@ p2 { /*DARK TEXT OVER LIGHT COLORS */
   background: #4a1a31;
 }
 
-.contacts .btn {
-  color: white;
-  font-family: avenir;
-  color: rgba(255,255,255, 80%);
-  font-size:16px;
-  text-decoration: none;
-  background: rgba(58,60,64, 80%);
-  padding: 8px 8px;
-  margin: 10px 0px;
-  border-radius: 6px;
-  display: inline-block;
-
+.contactbuttons {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.contacts .btn:hover {
-  text-decoration: none;
-  background: #0094C6;
+
+.contacts .linkbtn {
+  max-width: 30%;
+  height: auto;
 }
 
-.contacts .btn:active {
-  background: black;
+.contacts .linkbtn:hover {
+  opacity: 0.5;
 }
 
 .contacts .copywrite {
