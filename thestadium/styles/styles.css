@@ -62,7 +62,6 @@ p2 { /*DARK TEXT OVER LIGHT COLORS */
 /* HEADER */
 
 .header {
-  background: #000000;
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
 }
@@ -74,10 +73,10 @@ p2 { /*DARK TEXT OVER LIGHT COLORS */
 /* ABOUT */
 
 .about {
-  background: #000000;
+  background: rgba(0, 0, 0, 1.0);
   text-align: center;
-  margin: 0px 1000x 0px 0px;
-  bottom: 200;
+  padding: 100px;
+
 }
 
 /* REEL */
