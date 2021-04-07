@@ -27,28 +27,6 @@ body {
 }
 
 
-h1 {
-  font-size: 12em;
-  color: #ffffff;
-  margin: 0x;
-}
-
-h2 {
-  font-size: 1.8em;
-  color: #e9388b;
-}
-
-h3 {
-  font-size: 1.2em;
-    margin: 3px 2px;
-}
-
-h4 {
-  font-size: 1em;
-  margin: 3px 2px;
-  color: rgba(0,0,0, 60%);
-  font-weight: normal;
-}
 
 p { /*LIGHT TEXT OVER DARK COLORS */
   color: rgba(255,255,255, 80%);
@@ -59,35 +37,7 @@ p2 { /*DARK TEXT OVER LIGHT COLORS */
 }
 
 
-/* HEADER */
 
-.header {
-  text-align: center;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-
-
-
-
-/* ABOUT */
-
-.about {
-  background: rgba(0, 0, 0, 1.0);
-  text-align: center;
-  padding: 100px;
-
-}
-
-/* REEL */
-
-.reel {
-  background: #2B4162;
-}
-
-.workhistory {
-  background: white;
-}
 
 .fullscreen-bg {
   position: fixed;
@@ -107,7 +57,7 @@ p2 { /*DARK TEXT OVER LIGHT COLORS */
   height: 100%;
 }
 
-media (min-aspect-ratio: 16/9) {
+@media (min-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
     height: 300%;
     top: -100%;
@@ -121,73 +71,3 @@ media (min-aspect-ratio: 16/9) {
   }
 }
 
-@media (max-width: 767px) {
-  .fullscreen-bg {
-    background: url('../img/videoframe.jpg') center center / cover no-repeat;
-  }
-
-  .fullscreen-bg__video {
-    display: none;
-  }
-}
-
-/* CONTACT INFO  */
-
-.contacts {
-  background: #4a1a31;
-}
-
-.contactbuttons {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-
-.contacts .linkbtn {
-  max-width: 30%;
-  height: auto;
-}
-
-.contacts .linkbtn:hover {
-  opacity: 0.5;
-}
-
-.contacts .copywrite {
-  text-align: center;
-  color: lightgrey;
-  font-size: 12px;
-  margin: 100px 0px 0px 0px;
-}
-
-/* ----------------- */
-
-/* RESPONSIVE */
-
-@media screen and (min-width:750px){
-
-  .work-experience {
-      display: grid;
-      grid-gap: 1rem;
-      grid-template-columns: 1fr 1fr;
-      padding: 0px;
-      align-items; start;
-  }
-  .specialties-list {
-      display: grid;
-      grid-template-columns: 1fr;
-      text-align: center;
-      padding: 25px;
-      color: rgba(255, 255, 255, 0.8);
-  }
-
-}
-
-@media screen and (max-width:749px){
-  h1 {
-    font-size: 2.5em;
-    }
-  .specialties-list {
-      color: rgba(255,255,255, 80%);
-      
-  }
-}
