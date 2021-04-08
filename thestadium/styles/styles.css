@@ -28,9 +28,7 @@ body {
 
 
 
-p { /*LIGHT TEXT OVER DARK COLORS */
-  color: rgba(255,255,255, 80%);
-}
+
 
 p2 { /*DARK TEXT OVER LIGHT COLORS */
   color: rgba(0,0,0, 60%);
