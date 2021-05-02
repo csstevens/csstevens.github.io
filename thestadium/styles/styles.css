@@ -28,15 +28,6 @@ body {
 
 
 
-
-
-p2 { /*DARK TEXT OVER LIGHT COLORS */
-  color: rgba(0,0,0, 60%);
-}
-
-
-
-
 .fullscreen-bg {
   position: fixed;
   top: 0;
